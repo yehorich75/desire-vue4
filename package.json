@@ -35,8 +35,14 @@
       "parserOptions": {
         "ecmaVersion": 8,
         "sourceType": "module"
-    },
-    "rules": {}
+      },
+    "rules": {
+      "vue/component-tags-order": [
+        "error", {
+          "order":  [ "template", "script", "style" ]
+        }
+      ]
+    }
     }
   },
   "browserslist": [
